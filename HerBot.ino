@@ -1,4 +1,19 @@
+/* 
+ * HerBot
+ * http://www.kaddu.dk/index.php/en/projects/herbot
+ * GitHub Repository: https://github.com/JanHolbo/HerBot
+ * (C) 2014 by Jan Rasmussen & Kaddu.dk jan at kaddu dot dk
+ * This file and others in this pack is - where not otherwise stated - covered by the GPL v2 license
+ * Please feel free to fork this project and please submit patches and feature requests to the above email 
+ *
+ * File: HerBot/HerBot.ino
+ * Version: 
+ *
+ * This is the main HerBot file
+ *
+ */
 
+ 
 // Use the Time Library (http://www.pjrc.com/teensy/td_libs_Time.html)
 #include <Time.h>
 

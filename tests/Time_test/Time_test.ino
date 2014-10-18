@@ -1,7 +1,12 @@
 /* 
- * HerBot
- *
  * http://www.kaddu.dk/index.php/en/projects/herbot
+ * GitHub Repository: https://github.com/JanHolbo/HerBot
+ * (C) 2014 by Jan Rasmussen & Kaddu.dk jan at kaddu dot dk
+ * This file and others in this pack is - where not otherwise stated - covered by the GPL v2 license
+ * Please feel free to fork this project and please submit patches and feature requests to the above email 
+ *
+ * File: HerBot/tests/Time_test/Time_test.ino
+ * Version: 
  *
  * This is a test-bed sketch to determine the accuracy of a non-RTC based clock on Arduino
  *
