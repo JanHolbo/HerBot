@@ -17,6 +17,8 @@ char versionHeader[] = "HerBot v 0.1-alpha";
 
 // Use the Time Library (http://www.pjrc.com/teensy/td_libs_Time.html)
 #include <Time.h>
+#include <DHT.h>
+
 
 #define TIME_MSG_LEN  11    // time sync to PC is HEADER followed by unix time_t as ten ascii digits
 #define TIME_HEADER  'T'    // Header tag for serial time sync message
@@ -33,16 +35,21 @@ const int lightSensor = 9;
 const int humiditySensor = 10;
 const int moistureProbe[] = {4, 5, 6};
 
+#define DHTPIN 2 
+#define DHTTYPE DHT11
+
+DHT dht(DHTPIN, DHTTYPE);
+
 
 int logEntry = 0;     // index to log structure
 int logMultiplexer = 0;          // as we are listening for requests on the 
-const int logThreshold = 15;     // serial line, we need to check this more 
+const int logThreshold = 5*60;     // serial line, we need to check this more 
                                  // often than we log. Thus we can only delay() 
                                  // for a short while (1000 ms = 1 s). Logging is 
                                  // then done every nth time that the loop() 
                                  // iteration runs.
 
-const int logEntries = 10;
+const int logEntries = 125;
 
 // log data structure
 time_t logTime[logEntries];      // 4 bytes
@@ -58,6 +65,8 @@ void setup()
   Serial.println(F("Waiting for TimeSync ..."));
 
   pinMode(warningLogFullLED, OUTPUT);
+
+  dht.begin();
 }
 
 void loop()
@@ -134,8 +143,9 @@ void loop()
 
 int readTemp()          // Read the temperature probe
 {
-  
-  return (0);
+  float t = dht.readTemperature();
+
+  return (int(t));
 }
 
 int readLight()          // Read the light probe
@@ -146,8 +156,9 @@ int readLight()          // Read the light probe
 
 int readHumidity()       // Read the humidity probe
 {
+  float h = dht.readHumidity();
   
-  return (0);
+  return (int(h));
 }
 
 int readMoisture(int pin)          // Read a moisture probe
