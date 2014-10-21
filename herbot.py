@@ -76,13 +76,14 @@ if __name__ == '__main__':
     if (head != 'E'):
         temp = port.readline()
     else:
-        entries=int(port.readln())
+        entries=int(port.readline())
+        print (str(entries) + " log entries to read:")
         count = 0
 
         while count<entries:
             temp = port.readline()
             print (temp) 
-       
+            count = count + 1
 # 
 # main function (end)
 #
