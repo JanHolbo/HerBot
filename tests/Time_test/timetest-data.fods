@@ -1,0 +1,1503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
+ <office:meta><meta:initial-creator>Jan Rasmussen</meta:initial-creator><meta:creation-date>2014-10-21T08:10:36.383159254</meta:creation-date><dc:date>2014-10-21T11:55:41.127714699</dc:date><dc:creator>Jan Rasmussen</dc:creator><meta:editing-duration>PT2H13M43S</meta:editing-duration><meta:editing-cycles>1</meta:editing-cycles><meta:document-statistic meta:table-count="1" meta:cell-count="379" meta:object-count="0"/><meta:generator>LibreOffice/4.3.2.2.0$Linux_x86 LibreOffice_project/430m0$Build-2</meta:generator></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">11288</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">34318</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
+     <config:config-item-map-named config:name="Tables">
+      <config:config-item-map-entry config:name="Sheet1">
+       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">3</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+      </config:config-item-map-entry>
+     </config:config-item-map-named>
+     <config:config-item config:name="ActiveTable" config:type="string">Sheet1</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">270</config:config-item>
+     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+     <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+     <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+     <config:config-item config:name="ShowPageBreakPreview" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="GridColor" config:type="long">12632256</config:config-item>
+     <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterResolutionX" config:type="int">1000</config:config-item>
+     <config:config-item config:name="RasterResolutionY" config:type="int">1000</config:config-item>
+     <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+     <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+     <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsDocumentShared" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AutoCalculate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="RasterResolutionY" config:type="int">1000</config:config-item>
+   <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="RasterResolutionX" config:type="int">1000</config:config-item>
+   <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+   <config:config-item config:name="GridColor" config:type="long">12632256</config:config-item>
+   <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">3</config:config-item>
+   <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ooo:library-embedded ooo:name="Standard"/>
+   </ooo:libraries>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="DejaVu Sans" svg:font-family="&apos;DejaVu Sans&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Droid Sans Fallback" svg:font-family="&apos;Droid Sans Fallback&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="FreeSans" svg:font-family="FreeSans" style:font-family-generic="system" style:font-pitch="variable"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="table-cell">
+   <style:paragraph-properties style:tab-stop-distance="1.25cm"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:language="en" fo:country="GB" style:font-name-asian="DejaVu Sans" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="DejaVu Sans" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <number:number-style style:name="N0">
+   <number:number number:min-integer-digits="1"/>
+  </number:number-style>
+  <number:currency-style style:name="N104P0" style:volatile="true">
+   <number:currency-symbol number:language="en" number:country="GB">£</number:currency-symbol>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+  </number:currency-style>
+  <number:currency-style style:name="N104">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>-</number:text>
+   <number:currency-symbol number:language="en" number:country="GB">£</number:currency-symbol>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N104P0"/>
+  </number:currency-style>
+  <style:style style:name="Default" style:family="table-cell">
+   <style:text-properties style:font-name-asian="Droid Sans Fallback" style:font-family-asian="&apos;Droid Sans Fallback&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-name-complex="FreeSans" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable"/>
+  </style:style>
+  <style:style style:name="Result" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Result2" style:family="table-cell" style:parent-style-name="Result" style:data-style-name="N104"/>
+  <style:style style:name="Heading" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:font-size="16pt" fo:font-style="italic" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Heading1" style:family="table-cell" style:parent-style-name="Heading">
+   <style:table-cell-properties style:rotation-angle="90"/>
+  </style:style>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="co1" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.258cm"/>
+  </style:style>
+  <style:style style:name="ro1" style:family="table-row">
+   <style:table-row-properties style:row-height="0.452cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ta1" style:family="table" style:master-page-name="Default">
+   <style:table-properties table:display="true" style:writing-mode="lr-tb"/>
+  </style:style>
+  <number:time-style style:name="N41">
+   <number:hours number:style="long"/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long"/>
+  </number:time-style>
+  <style:style style:name="ce1" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N41"/>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.75cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-bottom="0.25cm"/>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.75cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.25cm"/>
+   </style:footer-style>
+  </style:page-layout>
+  <style:page-layout style:name="pm2">
+   <style:page-layout-properties style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.75cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-bottom="0.25cm" fo:border="2.49pt solid #000000" fo:padding="0.018cm" fo:background-color="#c0c0c0">
+     <style:background-image/>
+    </style:header-footer-properties>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.75cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.25cm" fo:border="2.49pt solid #000000" fo:padding="0.018cm" fo:background-color="#c0c0c0">
+     <style:background-image/>
+    </style:header-footer-properties>
+   </style:footer-style>
+  </style:page-layout>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Default" style:page-layout-name="pm1">
+   <style:header>
+    <text:p><text:sheet-name>???</text:sheet-name></text:p>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:footer>
+    <text:p>Page <text:page-number>1</text:page-number></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+  <style:master-page style:name="Report" style:page-layout-name="pm2">
+   <style:header>
+    <style:region-left>
+     <text:p><text:sheet-name>???</text:sheet-name> (<text:title>???</text:title>)</text:p>
+    </style:region-left>
+    <style:region-right>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2014-10-21">00/00/0000</text:date>, <text:time>00:00:00</text:time></text:p>
+    </style:region-right>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:footer>
+    <text:p>Page <text:page-number>1</text:page-number> / <text:page-count>99</text:page-count></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+ </office:master-styles>
+ <office:body>
+  <office:spreadsheet>
+   <table:table table:name="Sheet1" table:style-name="ta1">
+    <table:table-column table:style-name="co1" table:default-cell-style-name="ce1"/>
+    <table:table-column table:style-name="co1" table:number-columns-repeated="4" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+      <text:p>Elapsed time</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Computer</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Arduino</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Difference</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Diff s/h</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="time" office:time-value="PT00H00M00S" calcext:value-type="time">
+      <text:p>00:00:00</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="1413855730" calcext:value-type="float">
+      <text:p>1413855730</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B2]-[.C2]" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B3]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT00H05M00S" calcext:value-type="time">
+      <text:p>00:05:00</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="1413856030" calcext:value-type="float">
+      <text:p>1413856030</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B3]-[.C3]" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=([.D3]*24*60*60)/[.A3]" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B4]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT00H10M03S" calcext:value-type="time">
+      <text:p>00:10:03</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413856333" calcext:value-type="float">
+      <text:p>1413856333</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413856334" calcext:value-type="float">
+      <text:p>1413856334</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B4]-[.C4]" office:value-type="float" office:value="-1" calcext:value-type="float">
+      <text:p>-1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D4]/([.A4]*24)" office:value-type="float" office:value="-5.97014925373134" calcext:value-type="float">
+      <text:p>-5.9701492537</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B5]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT00H15M07S" calcext:value-type="time">
+      <text:p>00:15:07</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413856637" calcext:value-type="float">
+      <text:p>1413856637</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413856638" calcext:value-type="float">
+      <text:p>1413856638</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B5]-[.C5]" office:value-type="float" office:value="-1" calcext:value-type="float">
+      <text:p>-1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D5]/([.A5]*24)" office:value-type="float" office:value="-3.96912899669239" calcext:value-type="float">
+      <text:p>-3.9691289967</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B6]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT00H20M11S" calcext:value-type="time">
+      <text:p>00:20:11</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413856941" calcext:value-type="float">
+      <text:p>1413856941</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413856942" calcext:value-type="float">
+      <text:p>1413856942</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B6]-[.C6]" office:value-type="float" office:value="-1" calcext:value-type="float">
+      <text:p>-1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D6]/([.A6]*24)" office:value-type="float" office:value="-2.97274979355904" calcext:value-type="float">
+      <text:p>-2.9727497936</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B7]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT00H25M15S" calcext:value-type="time">
+      <text:p>00:25:15</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413857245" calcext:value-type="float">
+      <text:p>1413857245</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413857246" calcext:value-type="float">
+      <text:p>1413857246</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B7]-[.C7]" office:value-type="float" office:value="-1" calcext:value-type="float">
+      <text:p>-1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D7]/([.A7]*24)" office:value-type="float" office:value="-2.37623762376238" calcext:value-type="float">
+      <text:p>-2.3762376238</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B8]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT00H30M19S" calcext:value-type="time">
+      <text:p>00:30:19</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413857549" calcext:value-type="float">
+      <text:p>1413857549</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413857550" calcext:value-type="float">
+      <text:p>1413857550</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B8]-[.C8]" office:value-type="float" office:value="-1" calcext:value-type="float">
+      <text:p>-1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D8]/([.A8]*24)" office:value-type="float" office:value="-1.97910940076965" calcext:value-type="float">
+      <text:p>-1.9791094008</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B9]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT00H35M22S" calcext:value-type="time">
+      <text:p>00:35:22</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413857852" calcext:value-type="float">
+      <text:p>1413857852</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413857854" calcext:value-type="float">
+      <text:p>1413857854</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B9]-[.C9]" office:value-type="float" office:value="-2" calcext:value-type="float">
+      <text:p>-2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D9]/([.A9]*24)" office:value-type="float" office:value="-3.39302544769086" calcext:value-type="float">
+      <text:p>-3.3930254477</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B10]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT00H40M26S" calcext:value-type="time">
+      <text:p>00:40:26</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413858156" calcext:value-type="float">
+      <text:p>1413858156</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413858158" calcext:value-type="float">
+      <text:p>1413858158</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B10]-[.C10]" office:value-type="float" office:value="-2" calcext:value-type="float">
+      <text:p>-2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D10]/([.A10]*24)" office:value-type="float" office:value="-2.96784830997527" calcext:value-type="float">
+      <text:p>-2.96784831</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B11]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT00H45M30S" calcext:value-type="time">
+      <text:p>00:45:30</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413858460" calcext:value-type="float">
+      <text:p>1413858460</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413858462" calcext:value-type="float">
+      <text:p>1413858462</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B11]-[.C11]" office:value-type="float" office:value="-2" calcext:value-type="float">
+      <text:p>-2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D11]/([.A11]*24)" office:value-type="float" office:value="-2.63736263736264" calcext:value-type="float">
+      <text:p>-2.6373626374</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B12]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT00H50M34S" calcext:value-type="time">
+      <text:p>00:50:34</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413858764" calcext:value-type="float">
+      <text:p>1413858764</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413858766" calcext:value-type="float">
+      <text:p>1413858766</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B12]-[.C12]" office:value-type="float" office:value="-2" calcext:value-type="float">
+      <text:p>-2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D12]/([.A12]*24)" office:value-type="float" office:value="-2.3731048121292" calcext:value-type="float">
+      <text:p>-2.3731048121</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B13]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT00H55M38S" calcext:value-type="time">
+      <text:p>00:55:38</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413859068" calcext:value-type="float">
+      <text:p>1413859068</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413859070" calcext:value-type="float">
+      <text:p>1413859070</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B13]-[.C13]" office:value-type="float" office:value="-2" calcext:value-type="float">
+      <text:p>-2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D13]/([.A13]*24)" office:value-type="float" office:value="-2.15698022768125" calcext:value-type="float">
+      <text:p>-2.1569802277</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B14]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT01H00M41S" calcext:value-type="time">
+      <text:p>01:00:41</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413859371" calcext:value-type="float">
+      <text:p>1413859371</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413859374" calcext:value-type="float">
+      <text:p>1413859374</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B14]-[.C14]" office:value-type="float" office:value="-3" calcext:value-type="float">
+      <text:p>-3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D14]/([.A14]*24)" office:value-type="float" office:value="-2.96621807195825" calcext:value-type="float">
+      <text:p>-2.966218072</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B15]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT01H05M45S" calcext:value-type="time">
+      <text:p>01:05:45</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413859675" calcext:value-type="float">
+      <text:p>1413859675</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413859678" calcext:value-type="float">
+      <text:p>1413859678</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B15]-[.C15]" office:value-type="float" office:value="-3" calcext:value-type="float">
+      <text:p>-3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D15]/([.A15]*24)" office:value-type="float" office:value="-2.73764258555133" calcext:value-type="float">
+      <text:p>-2.7376425856</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B16]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT01H10M49S" calcext:value-type="time">
+      <text:p>01:10:49</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413859979" calcext:value-type="float">
+      <text:p>1413859979</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413859982" calcext:value-type="float">
+      <text:p>1413859982</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B16]-[.C16]" office:value-type="float" office:value="-3" calcext:value-type="float">
+      <text:p>-3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D16]/([.A16]*24)" office:value-type="float" office:value="-2.54177453518475" calcext:value-type="float">
+      <text:p>-2.5417745352</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B17]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT01H15M53S" calcext:value-type="time">
+      <text:p>01:15:53</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413860283" calcext:value-type="float">
+      <text:p>1413860283</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413860286" calcext:value-type="float">
+      <text:p>1413860286</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B17]-[.C17]" office:value-type="float" office:value="-3" calcext:value-type="float">
+      <text:p>-3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D17]/([.A17]*24)" office:value-type="float" office:value="-2.37206237645508" calcext:value-type="float">
+      <text:p>-2.3720623765</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B18]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT01H20M57S" calcext:value-type="time">
+      <text:p>01:20:57</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413860587" calcext:value-type="float">
+      <text:p>1413860587</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413860590" calcext:value-type="float">
+      <text:p>1413860590</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B18]-[.C18]" office:value-type="float" office:value="-3" calcext:value-type="float">
+      <text:p>-3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D18]/([.A18]*24)" office:value-type="float" office:value="-2.22359481161211" calcext:value-type="float">
+      <text:p>-2.2235948116</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B19]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT01H26M01S" calcext:value-type="time">
+      <text:p>01:26:01</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413860891" calcext:value-type="float">
+      <text:p>1413860891</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413860894" calcext:value-type="float">
+      <text:p>1413860894</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B19]-[.C19]" office:value-type="float" office:value="-3" calcext:value-type="float">
+      <text:p>-3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D19]/([.A19]*24)" office:value-type="float" office:value="-2.09261770974617" calcext:value-type="float">
+      <text:p>-2.0926177097</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B20]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT01H31M04S" calcext:value-type="time">
+      <text:p>01:31:04</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413861194" calcext:value-type="float">
+      <text:p>1413861194</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413861198" calcext:value-type="float">
+      <text:p>1413861198</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B20]-[.C20]" office:value-type="float" office:value="-4" calcext:value-type="float">
+      <text:p>-4</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D20]/([.A20]*24)" office:value-type="float" office:value="-2.63543191800878" calcext:value-type="float">
+      <text:p>-2.635431918</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B21]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT01H36M08S" calcext:value-type="time">
+      <text:p>01:36:08</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413861498" calcext:value-type="float">
+      <text:p>1413861498</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413861502" calcext:value-type="float">
+      <text:p>1413861502</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B21]-[.C21]" office:value-type="float" office:value="-4" calcext:value-type="float">
+      <text:p>-4</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D21]/([.A21]*24)" office:value-type="float" office:value="-2.49653259361997" calcext:value-type="float">
+      <text:p>-2.4965325936</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B22]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT01H41M12S" calcext:value-type="time">
+      <text:p>01:41:12</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413861802" calcext:value-type="float">
+      <text:p>1413861802</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413861806" calcext:value-type="float">
+      <text:p>1413861806</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B22]-[.C22]" office:value-type="float" office:value="-4" calcext:value-type="float">
+      <text:p>-4</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D22]/([.A22]*24)" office:value-type="float" office:value="-2.37154150197628" calcext:value-type="float">
+      <text:p>-2.371541502</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B23]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT01H46M16S" calcext:value-type="time">
+      <text:p>01:46:16</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413862106" calcext:value-type="float">
+      <text:p>1413862106</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413862110" calcext:value-type="float">
+      <text:p>1413862110</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B23]-[.C23]" office:value-type="float" office:value="-4" calcext:value-type="float">
+      <text:p>-4</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D23]/([.A23]*24)" office:value-type="float" office:value="-2.25846925972397" calcext:value-type="float">
+      <text:p>-2.2584692597</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B24]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT01H51M20S" calcext:value-type="time">
+      <text:p>01:51:20</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413862410" calcext:value-type="float">
+      <text:p>1413862410</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413862414" calcext:value-type="float">
+      <text:p>1413862414</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B24]-[.C24]" office:value-type="float" office:value="-4" calcext:value-type="float">
+      <text:p>-4</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D24]/([.A24]*24)" office:value-type="float" office:value="-2.15568862275449" calcext:value-type="float">
+      <text:p>-2.1556886228</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B25]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT01H56M23S" calcext:value-type="time">
+      <text:p>01:56:23</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413862713" calcext:value-type="float">
+      <text:p>1413862713</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413862718" calcext:value-type="float">
+      <text:p>1413862718</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B25]-[.C25]" office:value-type="float" office:value="-5" calcext:value-type="float">
+      <text:p>-5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D25]/([.A25]*24)" office:value-type="float" office:value="-2.57768867249033" calcext:value-type="float">
+      <text:p>-2.5776886725</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B26]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT02H01M27S" calcext:value-type="time">
+      <text:p>02:01:27</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413863017" calcext:value-type="float">
+      <text:p>1413863017</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413863022" calcext:value-type="float">
+      <text:p>1413863022</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B26]-[.C26]" office:value-type="float" office:value="-5" calcext:value-type="float">
+      <text:p>-5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D26]/([.A26]*24)" office:value-type="float" office:value="-2.47015232606011" calcext:value-type="float">
+      <text:p>-2.4701523261</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B27]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT02H06M31S" calcext:value-type="time">
+      <text:p>02:06:31</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413863321" calcext:value-type="float">
+      <text:p>1413863321</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413863326" calcext:value-type="float">
+      <text:p>1413863326</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B27]-[.C27]" office:value-type="float" office:value="-5" calcext:value-type="float">
+      <text:p>-5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D27]/([.A27]*24)" office:value-type="float" office:value="-2.3712290870768" calcext:value-type="float">
+      <text:p>-2.3712290871</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B28]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT02H11M35S" calcext:value-type="time">
+      <text:p>02:11:35</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413863625" calcext:value-type="float">
+      <text:p>1413863625</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413863630" calcext:value-type="float">
+      <text:p>1413863630</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B28]-[.C28]" office:value-type="float" office:value="-5" calcext:value-type="float">
+      <text:p>-5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D28]/([.A28]*24)" office:value-type="float" office:value="-2.27992400253325" calcext:value-type="float">
+      <text:p>-2.2799240025</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B29]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT02H16M39S" calcext:value-type="time">
+      <text:p>02:16:39</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413863929" calcext:value-type="float">
+      <text:p>1413863929</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413863934" calcext:value-type="float">
+      <text:p>1413863934</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B29]-[.C29]" office:value-type="float" office:value="-5" calcext:value-type="float">
+      <text:p>-5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D29]/([.A29]*24)" office:value-type="float" office:value="-2.1953896816685" calcext:value-type="float">
+      <text:p>-2.1953896817</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B30]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT02H21M42S" calcext:value-type="time">
+      <text:p>02:21:42</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413864232" calcext:value-type="float">
+      <text:p>1413864232</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413864238" calcext:value-type="float">
+      <text:p>1413864238</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B30]-[.C30]" office:value-type="float" office:value="-6" calcext:value-type="float">
+      <text:p>-6</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D30]/([.A30]*24)" office:value-type="float" office:value="-2.54057868736768" calcext:value-type="float">
+      <text:p>-2.5405786874</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B31]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT02H26M46S" calcext:value-type="time">
+      <text:p>02:26:46</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413864536" calcext:value-type="float">
+      <text:p>1413864536</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413864542" calcext:value-type="float">
+      <text:p>1413864542</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B31]-[.C31]" office:value-type="float" office:value="-6" calcext:value-type="float">
+      <text:p>-6</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D31]/([.A31]*24)" office:value-type="float" office:value="-2.45287304110834" calcext:value-type="float">
+      <text:p>-2.4528730411</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B32]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT02H31M50S" calcext:value-type="time">
+      <text:p>02:31:50</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413864840" calcext:value-type="float">
+      <text:p>1413864840</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413864846" calcext:value-type="float">
+      <text:p>1413864846</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B32]-[.C32]" office:value-type="float" office:value="-6" calcext:value-type="float">
+      <text:p>-6</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D32]/([.A32]*24)" office:value-type="float" office:value="-2.37102085620198" calcext:value-type="float">
+      <text:p>-2.3710208562</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B33]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT02H36M54S" calcext:value-type="time">
+      <text:p>02:36:54</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413865144" calcext:value-type="float">
+      <text:p>1413865144</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413865150" calcext:value-type="float">
+      <text:p>1413865150</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B33]-[.C33]" office:value-type="float" office:value="-6" calcext:value-type="float">
+      <text:p>-6</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D33]/([.A33]*24)" office:value-type="float" office:value="-2.29445506692161" calcext:value-type="float">
+      <text:p>-2.2944550669</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B34]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT02H41M58S" calcext:value-type="time">
+      <text:p>02:41:58</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413865448" calcext:value-type="float">
+      <text:p>1413865448</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413865454" calcext:value-type="float">
+      <text:p>1413865454</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B34]-[.C34]" office:value-type="float" office:value="-6" calcext:value-type="float">
+      <text:p>-6</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D34]/([.A34]*24)" office:value-type="float" office:value="-2.22267956369623" calcext:value-type="float">
+      <text:p>-2.2226795637</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B35]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT02H47M01S" calcext:value-type="time">
+      <text:p>02:47:01</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413865751" calcext:value-type="float">
+      <text:p>1413865751</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413865758" calcext:value-type="float">
+      <text:p>1413865758</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B35]-[.C35]" office:value-type="float" office:value="-7" calcext:value-type="float">
+      <text:p>-7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D35]/([.A35]*24)" office:value-type="float" office:value="-2.51471908991119" calcext:value-type="float">
+      <text:p>-2.5147190899</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B36]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT02H52M05S" calcext:value-type="time">
+      <text:p>02:52:05</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413866055" calcext:value-type="float">
+      <text:p>1413866055</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413866062" calcext:value-type="float">
+      <text:p>1413866062</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B36]-[.C36]" office:value-type="float" office:value="-7" calcext:value-type="float">
+      <text:p>-7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D36]/([.A36]*24)" office:value-type="float" office:value="-2.44067796610169" calcext:value-type="float">
+      <text:p>-2.4406779661</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B37]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT02H57M09S" calcext:value-type="time">
+      <text:p>02:57:09</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413866359" calcext:value-type="float">
+      <text:p>1413866359</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413866366" calcext:value-type="float">
+      <text:p>1413866366</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B37]-[.C37]" office:value-type="float" office:value="-7" calcext:value-type="float">
+      <text:p>-7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D37]/([.A37]*24)" office:value-type="float" office:value="-2.37087214225233" calcext:value-type="float">
+      <text:p>-2.3708721423</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B38]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT03H02M13S" calcext:value-type="time">
+      <text:p>03:02:13</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413866663" calcext:value-type="float">
+      <text:p>1413866663</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413866670" calcext:value-type="float">
+      <text:p>1413866670</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B38]-[.C38]" office:value-type="float" office:value="-7" calcext:value-type="float">
+      <text:p>-7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D38]/([.A38]*24)" office:value-type="float" office:value="-2.30494832159517" calcext:value-type="float">
+      <text:p>-2.3049483216</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B39]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT03H07M17S" calcext:value-type="time">
+      <text:p>03:07:17</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413866967" calcext:value-type="float">
+      <text:p>1413866967</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413866974" calcext:value-type="float">
+      <text:p>1413866974</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B39]-[.C39]" office:value-type="float" office:value="-7" calcext:value-type="float">
+      <text:p>-7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D39]/([.A39]*24)" office:value-type="float" office:value="-2.24259143899617" calcext:value-type="float">
+      <text:p>-2.242591439</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B40]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT03H12M21S" calcext:value-type="time">
+      <text:p>03:12:21</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413867271" calcext:value-type="float">
+      <text:p>1413867271</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413867278" calcext:value-type="float">
+      <text:p>1413867278</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B40]-[.C40]" office:value-type="float" office:value="-7" calcext:value-type="float">
+      <text:p>-7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D40]/([.A40]*24)" office:value-type="float" office:value="-2.18351962568235" calcext:value-type="float">
+      <text:p>-2.1835196257</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B41]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT03H17M24S" calcext:value-type="time">
+      <text:p>03:17:24</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413867574" calcext:value-type="float">
+      <text:p>1413867574</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413867582" calcext:value-type="float">
+      <text:p>1413867582</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B41]-[.C41]" office:value-type="float" office:value="-8" calcext:value-type="float">
+      <text:p>-8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D41]/([.A41]*24)" office:value-type="float" office:value="-2.43161094224924" calcext:value-type="float">
+      <text:p>-2.4316109422</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B42]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT03H22M28S" calcext:value-type="time">
+      <text:p>03:22:28</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413867878" calcext:value-type="float">
+      <text:p>1413867878</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413867886" calcext:value-type="float">
+      <text:p>1413867886</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B42]-[.C42]" office:value-type="float" office:value="-8" calcext:value-type="float">
+      <text:p>-8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D42]/([.A42]*24)" office:value-type="float" office:value="-2.37076061903194" calcext:value-type="float">
+      <text:p>-2.370760619</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B43]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT03H27M32S" calcext:value-type="time">
+      <text:p>03:27:32</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413868182" calcext:value-type="float">
+      <text:p>1413868182</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413868190" calcext:value-type="float">
+      <text:p>1413868190</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B43]-[.C43]" office:value-type="float" office:value="-8" calcext:value-type="float">
+      <text:p>-8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D43]/([.A43]*24)" office:value-type="float" office:value="-2.31288146482493" calcext:value-type="float">
+      <text:p>-2.3128814648</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B44]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT03H32M36S" calcext:value-type="time">
+      <text:p>03:32:36</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413868486" calcext:value-type="float">
+      <text:p>1413868486</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413868494" calcext:value-type="float">
+      <text:p>1413868494</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B44]-[.C44]" office:value-type="float" office:value="-8" calcext:value-type="float">
+      <text:p>-8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D44]/([.A44]*24)" office:value-type="float" office:value="-2.25776105362182" calcext:value-type="float">
+      <text:p>-2.2577610536</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B45]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT03H37M40S" calcext:value-type="time">
+      <text:p>03:37:40</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413868790" calcext:value-type="float">
+      <text:p>1413868790</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413868798" calcext:value-type="float">
+      <text:p>1413868798</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B45]-[.C45]" office:value-type="float" office:value="-8" calcext:value-type="float">
+      <text:p>-8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D45]/([.A45]*24)" office:value-type="float" office:value="-2.2052067381317" calcext:value-type="float">
+      <text:p>-2.2052067381</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B46]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT03H42M43S" calcext:value-type="time">
+      <text:p>03:42:43</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413869093" calcext:value-type="float">
+      <text:p>1413869093</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413869102" calcext:value-type="float">
+      <text:p>1413869102</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B46]-[.C46]" office:value-type="float" office:value="-9" calcext:value-type="float">
+      <text:p>-9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D46]/([.A46]*24)" office:value-type="float" office:value="-2.42460525331138" calcext:value-type="float">
+      <text:p>-2.4246052533</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B47]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT03H47M47S" calcext:value-type="time">
+      <text:p>03:47:47</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413869397" calcext:value-type="float">
+      <text:p>1413869397</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413869406" calcext:value-type="float">
+      <text:p>1413869406</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B47]-[.C47]" office:value-type="float" office:value="-9" calcext:value-type="float">
+      <text:p>-9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D47]/([.A47]*24)" office:value-type="float" office:value="-2.37067388600278" calcext:value-type="float">
+      <text:p>-2.370673886</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B48]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT03H52M51S" calcext:value-type="time">
+      <text:p>03:52:51</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413869701" calcext:value-type="float">
+      <text:p>1413869701</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413869710" calcext:value-type="float">
+      <text:p>1413869710</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B48]-[.C48]" office:value-type="float" office:value="-9" calcext:value-type="float">
+      <text:p>-9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D48]/([.A48]*24)" office:value-type="float" office:value="-2.31908954262401" calcext:value-type="float">
+      <text:p>-2.3190895426</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B49]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT03H57M55S" calcext:value-type="time">
+      <text:p>03:57:55</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413870005" calcext:value-type="float">
+      <text:p>1413870005</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413870014" calcext:value-type="float">
+      <text:p>1413870014</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B49]-[.C49]" office:value-type="float" office:value="-9" calcext:value-type="float">
+      <text:p>-9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D49]/([.A49]*24)" office:value-type="float" office:value="-2.26970227670753" calcext:value-type="float">
+      <text:p>-2.2697022767</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B50]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT04H02M59S" calcext:value-type="time">
+      <text:p>04:02:59</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413870309" calcext:value-type="float">
+      <text:p>1413870309</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413870318" calcext:value-type="float">
+      <text:p>1413870318</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B50]-[.C50]" office:value-type="float" office:value="-9" calcext:value-type="float">
+      <text:p>-9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D50]/([.A50]*24)" office:value-type="float" office:value="-2.22237464846697" calcext:value-type="float">
+      <text:p>-2.2223746485</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B51]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT04H08M02S" calcext:value-type="time">
+      <text:p>04:08:02</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413870612" calcext:value-type="float">
+      <text:p>1413870612</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413870622" calcext:value-type="float">
+      <text:p>1413870622</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B51]-[.C51]" office:value-type="float" office:value="-10" calcext:value-type="float">
+      <text:p>-10</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D51]/([.A51]*24)" office:value-type="float" office:value="-2.4190297003091" calcext:value-type="float">
+      <text:p>-2.4190297003</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B52]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT04H13M06S" calcext:value-type="time">
+      <text:p>04:13:06</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413870916" calcext:value-type="float">
+      <text:p>1413870916</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413870926" calcext:value-type="float">
+      <text:p>1413870926</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B52]-[.C52]" office:value-type="float" office:value="-10" calcext:value-type="float">
+      <text:p>-10</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D52]/([.A52]*24)" office:value-type="float" office:value="-2.37060450414856" calcext:value-type="float">
+      <text:p>-2.3706045041</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B53]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT04H18M10S" calcext:value-type="time">
+      <text:p>04:18:10</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413871220" calcext:value-type="float">
+      <text:p>1413871220</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413871230" calcext:value-type="float">
+      <text:p>1413871230</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B53]-[.C53]" office:value-type="float" office:value="-10" calcext:value-type="float">
+      <text:p>-10</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D53]/([.A53]*24)" office:value-type="float" office:value="-2.32408005164622" calcext:value-type="float">
+      <text:p>-2.3240800516</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B54]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT04H23M14S" calcext:value-type="time">
+      <text:p>04:23:14</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413871524" calcext:value-type="float">
+      <text:p>1413871524</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413871534" calcext:value-type="float">
+      <text:p>1413871534</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B54]-[.C54]" office:value-type="float" office:value="-10" calcext:value-type="float">
+      <text:p>-10</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D54]/([.A54]*24)" office:value-type="float" office:value="-2.27934658731164" calcext:value-type="float">
+      <text:p>-2.2793465873</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B55]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT04H28M18S" calcext:value-type="time">
+      <text:p>04:28:18</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413871828" calcext:value-type="float">
+      <text:p>1413871828</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413871838" calcext:value-type="float">
+      <text:p>1413871838</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B55]-[.C55]" office:value-type="float" office:value="-10" calcext:value-type="float">
+      <text:p>-10</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D55]/([.A55]*24)" office:value-type="float" office:value="-2.23630264629146" calcext:value-type="float">
+      <text:p>-2.2363026463</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B56]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT04H33M21S" calcext:value-type="time">
+      <text:p>04:33:21</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413872131" calcext:value-type="float">
+      <text:p>1413872131</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413872142" calcext:value-type="float">
+      <text:p>1413872142</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B56]-[.C56]" office:value-type="float" office:value="-11" calcext:value-type="float">
+      <text:p>-11</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D56]/([.A56]*24)" office:value-type="float" office:value="-2.41448692152918" calcext:value-type="float">
+      <text:p>-2.4144869215</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B57]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT04H38M25S" calcext:value-type="time">
+      <text:p>04:38:25</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413872435" calcext:value-type="float">
+      <text:p>1413872435</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413872446" calcext:value-type="float">
+      <text:p>1413872446</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B57]-[.C57]" office:value-type="float" office:value="-11" calcext:value-type="float">
+      <text:p>-11</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D57]/([.A57]*24)" office:value-type="float" office:value="-2.37054774019755" calcext:value-type="float">
+      <text:p>-2.3705477402</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B58]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT04H43M29S" calcext:value-type="time">
+      <text:p>04:43:29</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413872739" calcext:value-type="float">
+      <text:p>1413872739</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413872750" calcext:value-type="float">
+      <text:p>1413872750</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B58]-[.C58]" office:value-type="float" office:value="-11" calcext:value-type="float">
+      <text:p>-11</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D58]/([.A58]*24)" office:value-type="float" office:value="-2.32817919924746" calcext:value-type="float">
+      <text:p>-2.3281791992</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B59]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT04H48M33S" calcext:value-type="time">
+      <text:p>04:48:33</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413873043" calcext:value-type="float">
+      <text:p>1413873043</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413873054" calcext:value-type="float">
+      <text:p>1413873054</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B59]-[.C59]" office:value-type="float" office:value="-11" calcext:value-type="float">
+      <text:p>-11</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D59]/([.A59]*24)" office:value-type="float" office:value="-2.28729856177439" calcext:value-type="float">
+      <text:p>-2.2872985618</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B60]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT04H53M37S" calcext:value-type="time">
+      <text:p>04:53:37</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413873347" calcext:value-type="float">
+      <text:p>1413873347</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413873358" calcext:value-type="float">
+      <text:p>1413873358</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B60]-[.C60]" office:value-type="float" office:value="-11" calcext:value-type="float">
+      <text:p>-11</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D60]/([.A60]*24)" office:value-type="float" office:value="-2.24782880172561" calcext:value-type="float">
+      <text:p>-2.2478288017</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B61]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT04H58M41S" calcext:value-type="time">
+      <text:p>04:58:41</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413873651" calcext:value-type="float">
+      <text:p>1413873651</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413873662" calcext:value-type="float">
+      <text:p>1413873662</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B61]-[.C61]" office:value-type="float" office:value="-11" calcext:value-type="float">
+      <text:p>-11</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D61]/([.A61]*24)" office:value-type="float" office:value="-2.20969811952458" calcext:value-type="float">
+      <text:p>-2.2096981195</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B62]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT05H03M44S" calcext:value-type="time">
+      <text:p>05:03:44</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413873954" calcext:value-type="float">
+      <text:p>1413873954</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413873966" calcext:value-type="float">
+      <text:p>1413873966</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B62]-[.C62]" office:value-type="float" office:value="-12" calcext:value-type="float">
+      <text:p>-12</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D62]/([.A62]*24)" office:value-type="float" office:value="-2.37050043898156" calcext:value-type="float">
+      <text:p>-2.370500439</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B63]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT05H08M48S" calcext:value-type="time">
+      <text:p>05:08:48</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413874258" calcext:value-type="float">
+      <text:p>1413874258</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413874270" calcext:value-type="float">
+      <text:p>1413874270</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B63]-[.C63]" office:value-type="float" office:value="-12" calcext:value-type="float">
+      <text:p>-12</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D63]/([.A63]*24)" office:value-type="float" office:value="-2.33160621761658" calcext:value-type="float">
+      <text:p>-2.3316062176</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B64]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT05H13M52S" calcext:value-type="time">
+      <text:p>05:13:52</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413874562" calcext:value-type="float">
+      <text:p>1413874562</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413874574" calcext:value-type="float">
+      <text:p>1413874574</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B64]-[.C64]" office:value-type="float" office:value="-12" calcext:value-type="float">
+      <text:p>-12</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D64]/([.A64]*24)" office:value-type="float" office:value="-2.29396771452846" calcext:value-type="float">
+      <text:p>-2.2939677145</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B65]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT05H18M56S" calcext:value-type="time">
+      <text:p>05:18:56</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413874866" calcext:value-type="float">
+      <text:p>1413874866</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413874878" calcext:value-type="float">
+      <text:p>1413874878</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B65]-[.C65]" office:value-type="float" office:value="-12" calcext:value-type="float">
+      <text:p>-12</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D65]/([.A65]*24)" office:value-type="float" office:value="-2.25752508361204" calcext:value-type="float">
+      <text:p>-2.2575250836</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B66]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT05H24M00S" calcext:value-type="time">
+      <text:p>05:24:00</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413875170" calcext:value-type="float">
+      <text:p>1413875170</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413875182" calcext:value-type="float">
+      <text:p>1413875182</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B66]-[.C66]" office:value-type="float" office:value="-12" calcext:value-type="float">
+      <text:p>-12</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D66]/([.A66]*24)" office:value-type="float" office:value="-2.22222222222222" calcext:value-type="float">
+      <text:p>-2.2222222222</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B67]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT05H29M03S" calcext:value-type="time">
+      <text:p>05:29:03</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413875473" calcext:value-type="float">
+      <text:p>1413875473</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413875486" calcext:value-type="float">
+      <text:p>1413875486</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B67]-[.C67]" office:value-type="float" office:value="-13" calcext:value-type="float">
+      <text:p>-13</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D67]/([.A67]*24)" office:value-type="float" office:value="-2.3704604163501" calcext:value-type="float">
+      <text:p>-2.3704604164</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B68]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT05H34M07S" calcext:value-type="time">
+      <text:p>05:34:07</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413875777" calcext:value-type="float">
+      <text:p>1413875777</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413875790" calcext:value-type="float">
+      <text:p>1413875790</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B68]-[.C68]" office:value-type="float" office:value="-13" calcext:value-type="float">
+      <text:p>-13</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D68]/([.A68]*24)" office:value-type="float" office:value="-2.33451389235297" calcext:value-type="float">
+      <text:p>-2.3345138924</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B69]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT05H39M11S" calcext:value-type="time">
+      <text:p>05:39:11</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413876081" calcext:value-type="float">
+      <text:p>1413876081</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413876094" calcext:value-type="float">
+      <text:p>1413876094</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B69]-[.C69]" office:value-type="float" office:value="-13" calcext:value-type="float">
+      <text:p>-13</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D69]/([.A69]*24)" office:value-type="float" office:value="-2.29964129526805" calcext:value-type="float">
+      <text:p>-2.2996412953</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B70]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT05H44M15S" calcext:value-type="time">
+      <text:p>05:44:15</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413876385" calcext:value-type="float">
+      <text:p>1413876385</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413876398" calcext:value-type="float">
+      <text:p>1413876398</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B70]-[.C70]" office:value-type="float" office:value="-13" calcext:value-type="float">
+      <text:p>-13</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D70]/([.A70]*24)" office:value-type="float" office:value="-2.26579520697168" calcext:value-type="float">
+      <text:p>-2.265795207</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B71]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT05H49M19S" calcext:value-type="time">
+      <text:p>05:49:19</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413876689" calcext:value-type="float">
+      <text:p>1413876689</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413876702" calcext:value-type="float">
+      <text:p>1413876702</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B71]-[.C71]" office:value-type="float" office:value="-13" calcext:value-type="float">
+      <text:p>-13</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D71]/([.A71]*24)" office:value-type="float" office:value="-2.23293096044659" calcext:value-type="float">
+      <text:p>-2.2329309604</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B72]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT05H54M22S" calcext:value-type="time">
+      <text:p>05:54:22</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413876992" calcext:value-type="float">
+      <text:p>1413876992</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413877006" calcext:value-type="float">
+      <text:p>1413877006</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B72]-[.C72]" office:value-type="float" office:value="-14" calcext:value-type="float">
+      <text:p>-14</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D72]/([.A72]*24)" office:value-type="float" office:value="-2.37042611231305" calcext:value-type="float">
+      <text:p>-2.3704261123</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B73]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT05H59M26S" calcext:value-type="time">
+      <text:p>05:59:26</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413877296" calcext:value-type="float">
+      <text:p>1413877296</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413877310" calcext:value-type="float">
+      <text:p>1413877310</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B73]-[.C73]" office:value-type="float" office:value="-14" calcext:value-type="float">
+      <text:p>-14</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D73]/([.A73]*24)" office:value-type="float" office:value="-2.33701196327553" calcext:value-type="float">
+      <text:p>-2.3370119633</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B74]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT06H04M30S" calcext:value-type="time">
+      <text:p>06:04:30</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413877600" calcext:value-type="float">
+      <text:p>1413877600</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413877614" calcext:value-type="float">
+      <text:p>1413877614</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B74]-[.C74]" office:value-type="float" office:value="-14" calcext:value-type="float">
+      <text:p>-14</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D74]/([.A74]*24)" office:value-type="float" office:value="-2.30452674897119" calcext:value-type="float">
+      <text:p>-2.304526749</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B75]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT06H09M34S" calcext:value-type="time">
+      <text:p>06:09:34</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413877904" calcext:value-type="float">
+      <text:p>1413877904</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413877918" calcext:value-type="float">
+      <text:p>1413877918</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B75]-[.C75]" office:value-type="float" office:value="-14" calcext:value-type="float">
+      <text:p>-14</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D75]/([.A75]*24)" office:value-type="float" office:value="-2.27293226301073" calcext:value-type="float">
+      <text:p>-2.272932263</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=([.B76]-[.B$2])/(60*60*24)" office:value-type="time" office:time-value="PT06H14M38S" calcext:value-type="time">
+      <text:p>06:14:38</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413878208" calcext:value-type="float">
+      <text:p>1413878208</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1413878222" calcext:value-type="float">
+      <text:p>1413878222</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B76]-[.C76]" office:value-type="float" office:value="-14" calcext:value-type="float">
+      <text:p>-14</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D76]/([.A76]*24)" office:value-type="float" office:value="-2.24219236586885" calcext:value-type="float">
+      <text:p>-2.2421923659</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1" table:number-rows-repeated="21">
+     <table:table-cell table:number-columns-repeated="5"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:number-columns-repeated="5"/>
+    </table:table-row>
+   </table:table>
+   <table:named-expressions/>
+  </office:spreadsheet>
+ </office:body>
+</office:document>

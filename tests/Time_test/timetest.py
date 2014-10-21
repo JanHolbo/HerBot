@@ -17,28 +17,75 @@ import time
 
 # Open the serial port. Check which port is being used by the serial link
 #  to the Arduino (ttyUSBx)
-port = serial.Serial("/dev/ttyUSB1", baudrate=9600, timeout = 2.0)
 
-print ("T" + str(int(time.time())) + "\n")
-port.write ("T" + str(int(time.time())) + "\n")
 
-count = 0;
-# To vary the length of the survey please change the condition below
-# while count<no of data tuples
-while count<24:
-# to vary the frequency of the data tuples please change the delay (in seconds)
-# time.sleep(minuts*60)
-    time.sleep(60*60)
+def serial_ports():
+    """Lists serial ports
 
-    temp = port.readline()
-    port.write (chr(7))
-    pctime = int(time.time())
-    head = port.read()
-    if (head=='T'):
-        ardu = port.readline()
-        arduTime = int(ardu)
-        print (str(pctime) + "," + str(arduTime) + ",") 
+    :raises EnvironmentError:
+        On unsupported or unknown platforms
+    :returns:
+        A list of available serial ports
+    """
+    if sys.platform.startswith('win'):
+        ports = ['COM' + str(i + 1) for i in range(256)]
+
+    elif sys.platform.startswith('linux') or sys.platform.startswith('cygwin'):
+        # this is to exclude your current terminal "/dev/tty"
+        ports = glob.glob('/dev/tty[A-Za-z]*')
+
+    elif sys.platform.startswith('darwin'):
+        ports = glob.glob('/dev/tty.*')
+
     else:
+        raise EnvironmentError('Unsupported platform')
+
+    result = []
+    for port in ports:
+        try:
+            s = serial.Serial(port)
+            s.close()
+            result.append(port)
+        except (OSError, serial.SerialException):
+            pass
+    return result
+
+
+
+
+# 
+# main function (begin)
+#
+
+if __name__ == '__main__':
+    serPorts = serial_ports()		# get a list of available serial ports 
+    port = serial.Serial(serPorts[0], baudrate=9600, timeout = 2.0)
+					# select the first available
+
+    print ("T" + str(int(time.time())) + "\n")
+    port.write ("T" + str(int(time.time())) + "\n")
+
+    count = 0;
+                 # To vary the length of the survey please change the 
+                 # condition below while count<no of data tuples
+    while count<24:
+                 # to vary the frequency of the data tuples please change the 
+                 # delay (in seconds) time.sleep(minuts*60)
+        time.sleep(60*60)
+
         temp = port.readline()
-    count = count + 1
+        port.write (chr(7))
+        pctime = int(time.time())
+        head = port.read()
+        if (head=='T'):
+            ardu = port.readline()
+            arduTime = int(ardu)
+            print (str(pctime) + "," + str(arduTime) + ",") 
+        else:
+            temp = port.readline()
+        count = count + 1
+
+# 
+# main function (end)
+#
 
