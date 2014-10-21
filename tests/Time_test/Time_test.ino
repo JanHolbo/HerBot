@@ -28,67 +28,36 @@
 
 void setup()  {
   Serial.begin(9600);
-  setSyncProvider( requestSync);  //set function to call when sync required
   Serial.println("Waiting for sync message");
 }
 
 void loop(){    
+
+
   if(Serial.available() ) 
   {
-    processSyncMessage();
-  }
-  if(timeStatus()!= timeNotSet)   
-  {
-    digitalWrite(13,timeStatus() == timeSet); // on if synced, off if needs refresh  
-    digitalClockDisplay();  
-  }
-  delay(1000);
-}
-
-void digitalClockDisplay(){
-  // digital clock display of the time
-  Serial.print(hour());
-  printDigits(minute());
-  printDigits(second());
-  Serial.print(" ");
-  Serial.print(day());
-  Serial.print(" ");
-  Serial.print(month());
-  Serial.print(" ");
-  Serial.print(year()); 
-  Serial.println(); 
-}
-
-void printDigits(int digits){
-  // utility function for digital clock display: prints preceding colon and leading 0
-  Serial.print(":");
-  if(digits < 10)
-    Serial.print('0');
-  Serial.print(digits);
-}
-
-void processSyncMessage() {
-  // if time sync available from serial port, update time and return true
-  while(Serial.available() >=  TIME_MSG_LEN ){  // time message consists of a header and ten ascii digits
     char c = Serial.read() ; 
-    Serial.print(c);  
-    if( c == TIME_HEADER ) {       
+
+    if (c == TIME_REQUEST)
+    {
+      Serial.println ("T" + String(now()));
+    } else if (c == TIME_HEADER)
+    {
       time_t pctime = 0;
-      for(int i=0; i < TIME_MSG_LEN -1; i++){   
+      for(int i=0; i < TIME_MSG_LEN -1; i++)
+      {   
         c = Serial.read();          
-        if( c >= '0' && c <= '9'){   
-          pctime = (10 * pctime) + (c - '0') ; // convert digits to a number    
+        if( c >= '0' && c <= '9')
+        {   
+            pctime = (10 * pctime) + (c - '0') ; // convert digits to a number    
         }
-      }   
+      }
       setTime(pctime);   // Sync Arduino clock to the time received on the serial port
+      Serial.println ("T" + String(now()) + " (Synced)");
     }  
   }
-}
 
-time_t requestSync()
-{
-//  Serial.print(TIME_REQUEST,BYTE);  
-  Serial.print(TIME_REQUEST);  
-  return 0; // the time will be sent later in response to serial mesg
+
+  delay(1000);
 }
 
