@@ -15,14 +15,20 @@
 import serial
 import time
 
-port = serial.Serial("/dev/ttyUSB1", baudrate=9600, timeout = 3.0)
+# Open the serial port. Check which port is being used by the serial link
+#  to the Arduino (ttyUSBx)
+port = serial.Serial("/dev/ttyUSB1", baudrate=9600, timeout = 2.0)
 
 print ("T" + str(int(time.time())) + "\n")
 port.write ("T" + str(int(time.time())) + "\n")
 
 count = 0;
-while count<8*12:
-    time.sleep(5*60)
+# To vary the length of the survey please change the condition below
+# while count<no of data tuples
+while count<24:
+# to vary the frequency of the data tuples please change the delay (in seconds)
+# time.sleep(minuts*60)
+    time.sleep(60*60)
 
     temp = port.readline()
     port.write (chr(7))
