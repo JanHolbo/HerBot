@@ -88,7 +88,21 @@ void loop()
       }
       setTime(pctime);   // Sync Arduino clock to the time received on the serial port
       Serial.println ("T" + String(now()) + " (Synced)");
-    }  
+    } else if (c == LOG_PULL_REQUEST)
+    {
+      Serial.println ("E" + String(logEntry));
+      
+      for (int i=0; i < logEntry; i++)
+      {
+        Serial.print (String(logTime[i]) + "," + String(temp[i]) + ",");
+        Serial.print (String(light[i]) + "," + String(humid[i]));
+        for (int j=0; j < pots; j++)
+        {
+          Serial.print ("," + String(moist[i][j]));
+        }
+        Serial.println (",");
+      }
+    } 
 
   }
 
