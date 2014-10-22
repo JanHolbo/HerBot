@@ -52,7 +52,7 @@ bool timeSynced = false;
 
 int logEntryNo = 0;     // index to log structure
 int logMultiplexer = 0;          // as we are listening for requests on the 
-const long logThreshold = 15;  // serial line, we need to check this more 
+const long logThreshold = 60;  // serial line, we need to check this more 
                                  // often than we log. Thus we can only delay() 
                                  // for a short while (1000 ms = 1 s). Logging is 
                                  // then done every nth time that the loop() 
@@ -75,7 +75,7 @@ void setup()
   Serial.begin(9600);
   Serial.println(versionHeader);
   Serial.println(F("?Waiting for TimeSync ..."));
-
+inital
   pinMode(warningLogFullLED, OUTPUT);
 
   dht.begin();
