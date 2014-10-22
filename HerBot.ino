@@ -3,8 +3,10 @@
  * http://www.kaddu.dk/index.php/en/projects/herbot
  * GitHub Repository: https://github.com/JanHolbo/HerBot
  * (C) 2014 by Jan Rasmussen & Kaddu.dk jan at kaddu dot dk
- * This file and others in this pack is - where not otherwise stated - covered by the GPL v2 license
- * Please feel free to fork this project and please submit patches and feature requests to the above email 
+ * This file and others in this pack is - where not otherwise stated - 
+ * covered by the GPL v2 license.
+ * Please feel free to fork this project and please submit patches and 
+ * feature requests to the above email 
  *
  * File: HerBot/HerBot.ino
  * Version: 0.1-alpha
@@ -19,8 +21,8 @@ char versionHeader[] = "HerBot v 0.1-alpha";
 #include <Time.h>
 #include <DHT.h>
 
-
-#define TIME_MSG_LEN  11    // time sync to PC is HEADER followed by unix time_t as ten ascii digits
+                            // time sync to PC is HEADER followed by
+#define TIME_MSG_LEN  11    // unix time_t as ten ascii digits
 #define TIME_HEADER  'T'    // Header tag for serial time sync message
 #define LOG_PULL_REQUEST 'L'  // Header tag for requesting log contents 
 
@@ -44,7 +46,7 @@ bool timeSynced = false;
 
 int logEntryNo = 0;     // index to log structure
 int logMultiplexer = 0;          // as we are listening for requests on the 
-const int logThreshold = 5*60;     // serial line, we need to check this more 
+const long logThreshold = 5*50;  // serial line, we need to check this more 
                                  // often than we log. Thus we can only delay() 
                                  // for a short while (1000 ms = 1 s). Logging is 
                                  // then done every nth time that the loop() 
@@ -61,6 +63,7 @@ struct logEntryType {
 const int logEntries = 125;
 logEntryType logEntry[logEntries];
 
+
 void setup()
 {
   Serial.begin(9600);
@@ -72,11 +75,13 @@ void setup()
   dht.begin();
 }
 
+
 int readLight()          // Read the light probe
 {
   
   return (0);
 }
+
 
 int readMoisture(int pin)          // Read a moisture probe
 {
@@ -94,10 +99,10 @@ void timeSync()
     c = Serial.read();          
     if( c >= '0' && c <= '9')
     {   
-        pctime = (10 * pctime) + (c - '0') ; // convert digits to a number    
+      pctime = (10 * pctime) + (c - '0') ; // convert digits to a number    
     }
   }
-  setTime(pctime);   // Sync Arduino clock to the time received on the serial port
+  setTime(pctime);   // Sync Arduino clock to the time received
   Serial.println ("T" + String(now()) + " (Synced)");
 }
 
@@ -113,7 +118,9 @@ void sendLog ()
     Serial.print (String(logEntry[i].temperature) + ",");
     Serial.print (String(logEntry[i].light) + ",");
     Serial.print (String(logEntry[i].humidity) + ",");
-    for (int j = 0; j < pots; j++) Serial.print (String(logEntry[i].moisture[j]) + ",");
+    for (int j = 0; j < pots; j++) 
+      Serial.print (String(logEntry[i].moisture[j]) + ",");
+    Serial.println ("");
   }
 }
 
@@ -186,6 +193,8 @@ void logData()
 
 void loop()
 {
+//  Serial.println("T" + String (now()) + " E" + logEntryNo + " M"+ logMultiplexer);
+
   if (Serial.available())
   {
     handleInput();
@@ -197,6 +206,7 @@ void loop()
     {
       logData();
       logMultiplexer = 0;
+      logEntryNo++;
     }
   
   }
