@@ -7,8 +7,8 @@
 # Please feel free to fork this project and please submit patches and 
 # feature requests to the above email 
 #
-# File: HerBot/tests/Time_test/timetest.py
-# Version: 
+# File: HerBot/herbot.py
+# Version: 0.2-beta
 #
 # This is a test-bed python script to determine the accuracy 
 # of a non-RTC based clock on Arduino
@@ -64,40 +64,34 @@ def serial_ports():
 #
 
 if __name__ == '__main__':
-    serPorts = serial_ports()		# get a list of available serial ports 
+    serPorts = serial_ports()	# get a list of available serial ports 
     port = serial.Serial(serPorts[0], baudrate=9600, timeout = 2.0)
-					# select the first available
+				# select the first available
 
-    print ("HerBot V 0.1-alpha timetest.py script\n")
-    print ("Please enter probing frequency (times per hour) : ")
-    freq = int ( raw_input())
-    print ("Please enter number of probes :")
-    probes = int ( raw_input())
+    print ("HerBot v0.2-beta herbot.py script\n")
 
+    port.write ('L')		# request the log
 
-    print ("Test will last approx. " + str (probes / freq) + " hours.\n")
+    response = 1
+    while (response):
+        head = port.read()		# first character should be an E (Entries)
 
-    print ("T" + str(int(time.time())) + "\n")
-    port.write ("T" + str(int(time.time())) + "\n")
+        if (head == 'E'):
+            entries=int(port.readline())
+            print (str(entries) + " log entries to read:")
+            count = 0
 
-    count = 0;
-
-    while count<probes:
-
-        time.sleep((60/freq)*60)
-
-        temp = port.readline()
-        port.write (chr(7))
-        pctime = int(time.time())
-        head = port.read()
-        if (head=='T'):
-            ardu = port.readline()
-            arduTime = int(ardu)
-            print (str(pctime) + "," + str(arduTime) + ",") 
+            while (count<=entries):
+                temp = port.readline()
+                print (temp) 
+                count = count + 1
+                response = 0
+        elif (head == 'T'):
+            time=int(port.readline())
+            print (str(time) + "seconds since epoch")
         else:
             temp = port.readline()
-        count = count + 1
-
+            print ("unrecognised response: " + head + temp)
 # 
 # main function (end)
 #
