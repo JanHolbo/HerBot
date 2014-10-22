@@ -70,20 +70,28 @@ if __name__ == '__main__':
 
     print ("HerBot V 0.1-alpha herbot.py script\n")
 
-    port.write (chr(7))		# request the log
-    head = port.read()		# first character should be an E (Entries)
+    port.write ('L')		# request the log
 
-    if (head != 'E'):
-        temp = port.readline()
-    else:
-        entries=int(port.readline())
-        print (str(entries) + " log entries to read:")
-        count = 0
+    response = 1
+    while (response):
+        head = port.read()		# first character should be an E (Entries)
 
-        while count<entries:
+        if (head == 'E'):
+            entries=int(port.readline())
+            print (str(entries) + " log entries to read:")
+            count = 0
+
+            while (count<=entries):
+                temp = port.readline()
+                print (temp) 
+                count = count + 1
+                response = 0
+        elif (head == 'T'):
+            time=int(port.readline())
+            print (str(time) + "seconds since epoch")
+        else:
             temp = port.readline()
-            print (temp) 
-            count = count + 1
+            print ("unrecognised response: " + head + temp)
 # 
 # main function (end)
 #

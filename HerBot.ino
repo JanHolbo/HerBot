@@ -46,7 +46,7 @@ bool timeSynced = false;
 
 int logEntryNo = 0;     // index to log structure
 int logMultiplexer = 0;          // as we are listening for requests on the 
-const long logThreshold = 5*50;  // serial line, we need to check this more 
+const long logThreshold = 15;  // serial line, we need to check this more 
                                  // often than we log. Thus we can only delay() 
                                  // for a short while (1000 ms = 1 s). Logging is 
                                  // then done every nth time that the loop() 
@@ -102,13 +102,17 @@ void timeSync()
       pctime = (10 * pctime) + (c - '0') ; // convert digits to a number    
     }
   }
+  c = Serial.read();          
   setTime(pctime);   // Sync Arduino clock to the time received
+  timeSynced = true;
+
   Serial.println ("T" + String(now()) + " (Synced)");
 }
 
 
 void sendLog ()
 {
+  time_t timeSpent = now();
   Serial.println ("E" + String(logEntryNo));
   Serial.println ("T" + String(now()));
     
@@ -122,6 +126,12 @@ void sendLog ()
       Serial.print (String(logEntry[i].moisture[j]) + ",");
     Serial.println ("");
   }
+  
+  timeSpent = now() - timeSpent;
+
+  logEntryNo = 0;
+  
+  logMultiplexer = logMultiplexer + timeSpent;
 }
 
 void handleInput()
@@ -135,6 +145,7 @@ void handleInput()
       break;
     case 'L':
       sendLog();
+      c = Serial.read();
       break;
     default:
       String inputString = "";
@@ -188,6 +199,8 @@ void logData()
   logEntry[logEntryNo].logTime = now();
   logEntry[logEntryNo].temperature = int (dht.readTemperature());
   logEntry[logEntryNo].humidity = int (dht.readHumidity());
+
+  logEntryNo++;
 }
 
 
@@ -204,9 +217,15 @@ void loop()
   {
     if (logMultiplexer >= logThreshold)
     {
-      logData();
-      logMultiplexer = 0;
-      logEntryNo++;
+      if (timeSynced)
+      {
+        logData();
+        logMultiplexer = 0;
+      } else {
+        logMultiplexer = 0;
+        Serial.println(F("Waiting for TimeSync ..."));
+      }
+    
     }
   
   }
