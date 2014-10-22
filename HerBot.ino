@@ -189,7 +189,7 @@ boolean logStorageSpace()
       Serial.println(F("!Warning! Log storage is more than 75% full"));
       digitalWrite (warningLogFullLED, HIGH);
     }
-  }
+  } else digitalWrite (warningLogFullLED, LOW);
   return true;
 }
 
