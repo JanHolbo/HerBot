@@ -9,13 +9,13 @@
  * feature requests to the above email 
  *
  * File: HerBot/HerBot.ino
- * Version: 0.1-alpha
+ * Version: 0.2-beta
  *
  * This is the main HerBot file
  *
  */
 
-char versionHeader[] = "HerBot v 0.1-alpha";
+char versionHeader[] = "HerBot v0.2-beta";
 
 // Use the Time Library (http://www.pjrc.com/teensy/td_libs_Time.html)
 #include <Time.h>
