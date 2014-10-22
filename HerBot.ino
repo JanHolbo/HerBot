@@ -19,12 +19,23 @@ char versionHeader[] = "HerBot v 0.1-alpha";
 
 // Use the Time Library (http://www.pjrc.com/teensy/td_libs_Time.html)
 #include <Time.h>
-#include <DHT.h>
-
                             // time sync to PC is HEADER followed by
 #define TIME_MSG_LEN  11    // unix time_t as ten ascii digits
 #define TIME_HEADER  'T'    // Header tag for serial time sync message
+
+// Use the DHT library from AdaFruit(https://github.com/adafruit/DHT-sensor-library)
+#include <DHT.h>
+#define DHTPIN 2 
+#define DHTTYPE DHT11
+//#define DHTTYPE DHT21
+//#define DHTTYPE DHT22
+DHT dht(DHTPIN, DHTTYPE);
+
+// Header tag definitions
+#define CONFIG_HEADER 'C'     // Header tag for config message
 #define LOG_PULL_REQUEST 'L'  // Header tag for requesting log contents 
+//#define TIME_HEADER  'T'    // Header tag for serial time sync message - Defined earlier in code
+#define INFO_REQUEST '?'      // Header tag for requesting (system) info
 
 // Number of pots to survey
 const int pots = 3;
@@ -36,11 +47,6 @@ const int tempSensor = 8;
 const int lightSensor = 9;
 const int humiditySensor = 10;
 const int moistureProbe[] = {4, 5, 6};
-
-#define DHTPIN 2 
-#define DHTTYPE DHT11
-
-DHT dht(DHTPIN, DHTTYPE);
 
 bool timeSynced = false;
 
@@ -145,7 +151,7 @@ void handleInput()
       sendLog();
       c = Serial.read();
       break;
-    default:
+    default:                    // Unknown/undefined Headers 
       String inputString = "";
       while (Serial.available() && c != '\n')
       {
