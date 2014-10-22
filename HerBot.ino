@@ -68,7 +68,7 @@ void setup()
 {
   Serial.begin(9600);
   Serial.println(versionHeader);
-  Serial.println(F("Waiting for TimeSync ..."));
+  Serial.println(F("?Waiting for TimeSync ..."));
 
   pinMode(warningLogFullLED, OUTPUT);
 
@@ -128,9 +128,7 @@ void sendLog ()
   }
   
   timeSpent = now() - timeSpent;
-
   logEntryNo = 0;
-  
   logMultiplexer = logMultiplexer + timeSpent;
 }
 
@@ -223,15 +221,12 @@ void loop()
         logMultiplexer = 0;
       } else {
         logMultiplexer = 0;
-        Serial.println(F("Waiting for TimeSync ..."));
+        Serial.println(F("?Waiting for TimeSync ..."));
       }
-    
     }
-  
   }
 
   logMultiplexer++;
   delay(1000);
 }
-
 
