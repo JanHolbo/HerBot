@@ -75,7 +75,6 @@ void setup()
   Serial.begin(9600);
   Serial.println(versionHeader);
   Serial.println(F("?Waiting for TimeSync ..."));
-inital
   pinMode(warningLogFullLED, OUTPUT);
 
   dht.begin();
@@ -120,8 +119,7 @@ void sendLog ()
 {
   time_t timeSpent = now();
   Serial.println ("E" + String(logEntryNo));
-  Serial.println ("T" + String(now()));
-    
+
   for (int i=0; i < logEntryNo; i++)
   {
     Serial.print (String(logEntry[i].logTime) + ",");
@@ -133,6 +131,8 @@ void sendLog ()
     Serial.println ("");
   }
   
+  Serial.println ("T" + String(now()));
+    
   timeSpent = now() - timeSpent;
   logEntryNo = 0;
   logMultiplexer = logMultiplexer + timeSpent;
