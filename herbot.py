@@ -8,7 +8,7 @@
 # feature requests to the above email 
 #
 # File: HerBot/herbot.py
-# Version: 0.1-alpha
+# Version: 0.2-beta
 #
 # This is a test-bed python script to determine the accuracy 
 # of a non-RTC based clock on Arduino
@@ -68,7 +68,7 @@ if __name__ == '__main__':
     port = serial.Serial(serPorts[0], baudrate=9600, timeout = 2.0)
 				# select the first available
 
-    print ("HerBot V 0.1-alpha herbot.py script\n")
+    print ("HerBot v0.2-beta herbot.py script\n")
 
     port.write ('L')		# request the log
 
