@@ -15,7 +15,7 @@
  *
  */
 
-char versionHeader[] = "HerBot v0.2-beta";
+char versionHeader[] = "!HerBot v0.2-beta";
 
 // Use the Time Library (http://www.pjrc.com/teensy/td_libs_Time.html)
 #include <Time.h>
@@ -144,6 +144,8 @@ void handleInput()
 
   switch (c)
   {
+    case '?':
+      break;
     case 'T':
       timeSync();
       break;

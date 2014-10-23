@@ -68,6 +68,7 @@ def dump_log():
     :returns:
     """
 
+    print ("Requesting the log ...")
     port.write ('L')		# request the log
 
     logfile = open('herbot.log', 'a')	# please append to the file
@@ -108,6 +109,25 @@ if __name__ == '__main__':
 				# select the first available
 
     print ("HerBot v0.2-beta herbot.py script\n")
+
+    while (port.inWaiting()):
+        head = port.read()	# first character should be an E (Entries)
+
+        if (head == '!'):	# error (info?) message
+            temp = port.readline()
+            print ("Error/info mesage: " + head + temp)
+        elif (head == '?'):	# message requesting response
+            temp = port.readline()
+            print ("Requesting action: " + head + temp)
+            print ("HerBot not synced so providing it with time")
+            port.write ("T" + str (int (time.time())) + "\n") # not synced so provide time
+            temp = port.readline()
+        elif (head == 'T'):
+            herbot_time=int(port.readline())
+            print (str(herbot_time) + " seconds since epoch")
+        else:
+            temp = port.readline()
+            print ("unrecognised response: " + head + temp)
 
     dump_log()
 
