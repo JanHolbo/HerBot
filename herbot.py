@@ -20,7 +20,6 @@ import time
 import glob
 import sys
 
-
 # Open the serial port. Check which port is being used by the serial link
 #  to the Arduino (ttyUSBx)
 
@@ -57,6 +56,55 @@ def serial_ports():
     return result
 
 
+#
+# dump the log contents into a file (appending it)
+#
+
+def dump_log():
+    """Reads the log present on the HerBot Arduino through the serial port
+
+    :raises EnvironmentError:
+        On unsupported or unknown platforms
+    :returns:
+    """
+
+    print ("Requesting the log ...")
+    port.write ('L')		# request the log
+
+    logfile = open('herbot.log', 'a')	# please append to the file
+
+    response = 1
+    while (response):
+        head = port.read()	# first character should be an E (Entries)
+
+        if (head == 'E'):
+            entries=int(port.readline())
+            print (str(entries) + " log entries to read:")
+            count = 0
+
+            while (count<entries):
+                temp = port.readline()
+                logfile.write (temp) 
+                count = count + 1
+            if (entries == 0):
+                response = 0
+        elif (head == 'T'):
+            herbot_time=int(port.readline())
+            print (str(herbot_time) + " seconds since epoch")
+            response = 0
+        elif (head == '?'):
+            temp = port.readline()
+            print ("Requesting action: " + head + temp)
+ 				# not synced so provide time
+            print ("HerBot not synced so providing it with time")
+            port.write ("T" + str (int (time.time())) + "\n")
+            temp = port.readline()
+            response = 0
+        else:
+            temp = port.readline()
+            print ("unrecognised response: [" + head + "][" + temp + "]")
+
+    port.write ("T" + str (int (time.time())) + "\n")
 
 
 # 
@@ -70,28 +118,32 @@ if __name__ == '__main__':
 
     print ("HerBot v0.2-beta herbot.py script\n")
 
-    port.write ('L')		# request the log
+    port.write ('?')		# request the log
 
-    response = 1
-    while (response):
-        head = port.read()		# first character should be an E (Entries)
+    time.sleep(1)
 
-        if (head == 'E'):
-            entries=int(port.readline())
-            print (str(entries) + " log entries to read:")
-            count = 0
+    while (port.inWaiting()):
+        head = port.read()	# first character should be an E (Entries)
 
-            while (count<=entries):
-                temp = port.readline()
-                print (temp) 
-                count = count + 1
-                response = 0
+        if (head == '!'):	# error (info?) message
+            temp = port.readline()
+            print ("Error/info mesage: " + head + temp)
+        elif (head == '?'):	# message requesting response
+            temp = port.readline()
+            print ("Requesting action: " + head + temp)
+ 				# not synced so provide time
+            print ("HerBot not synced so providing it with time")
+            port.write ("T" + str (int (time.time())) + "\n")
+            temp = port.readline()
         elif (head == 'T'):
-            time=int(port.readline())
-            print (str(time) + "seconds since epoch")
+            herbot_time=int(port.readline())
+            print (str(herbot_time) + " seconds since epoch")
         else:
             temp = port.readline()
-            print ("unrecognised response: " + head + temp)
+            print ("unrecognised response: [" + head + "][" + temp + "]")
+
+    dump_log()
+
 # 
 # main function (end)
 #
