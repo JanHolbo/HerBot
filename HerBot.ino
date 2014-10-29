@@ -45,13 +45,14 @@ const int warningLogFullLED = 13;
 const int tempSensor = 8;
 const int lightSensor = 9;
 const int humiditySensor = 10;
-const int moistureProbe[] = {4, 5, 6};
+const int moistureProbe[] = {A0, A1, A2};
 
 bool timeSynced = false;
 
-int logEntryNo = 0;     // index to log structure
+int logEntryNo = 0;              // index to log structure
 int logMultiplexer = 0;          // as we are listening for requests on the 
 const long logThreshold = 15*60; // serial line, we need to check this more 
+//const long logThreshold = 15; // serial line, we need to check this more 
                                  // often than we log. Thus we can only delay() 
                                  // for a short while (1000 ms = 1 s). Logging is 
                                  // then done every nth time that the loop() 
@@ -80,17 +81,16 @@ void setup()
 }
 
 
-int readLight()          // Read the light probe
+byte readLight()          // Read the light probe
 {
   
   return (0);
 }
 
 
-int readMoisture(int pin)          // Read a moisture probe
+byte readMoisture(int pin)          // Read a moisture probe
 {
-  
-  return (0);
+  return (byte (analogRead(pin) >> 2));
 }
 
 
@@ -118,8 +118,7 @@ void sendLog ()
 {
   time_t timeSpent = now();
   Serial.println ("E" + String(logEntryNo));
-  Serial.println ("T" + String(now()));
-    
+
   for (int i=0; i < logEntryNo; i++)
   {
     Serial.print (String(logEntry[i].logTime) + ",");
@@ -131,6 +130,8 @@ void sendLog ()
     Serial.println ("");
   }
   
+  Serial.println ("T" + String(now()));
+    
   timeSpent = now() - timeSpent;
   logEntryNo = 0;
   logMultiplexer = logMultiplexer + timeSpent;
@@ -142,6 +143,8 @@ void handleInput()
 
   switch (c)
   {
+    case '?':
+      break;
     case 'T':
       timeSync();
       break;
@@ -199,8 +202,11 @@ boolean logStorageSpace()
 void logData()
 {
   logEntry[logEntryNo].logTime = now();
-  logEntry[logEntryNo].temperature = int (dht.readTemperature());
-  logEntry[logEntryNo].humidity = int (dht.readHumidity());
+  logEntry[logEntryNo].temperature = byte (dht.readTemperature());
+  logEntry[logEntryNo].humidity = byte (dht.readHumidity());
+  logEntry[logEntryNo].moisture[0] = byte (readMoisture(0));
+  logEntry[logEntryNo].moisture[1] = byte (readMoisture(1));
+  logEntry[logEntryNo].moisture[2] = byte (readMoisture(2));
 
   logEntryNo++;
 }
