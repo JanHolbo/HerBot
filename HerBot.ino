@@ -206,8 +206,8 @@ void logData()
   logEntry[logEntryNo].temperature = byte (dht.readTemperature());
   logEntry[logEntryNo].humidity = byte (dht.readHumidity());
   logEntry[logEntryNo].moisture[0] = byte (readMoisture(0));
-//  logEntry[logEntryNo].moisture[1] = byte (readMoisture(1));
-//  logEntry[logEntryNo].moisture[2] = byte (readMoisture(2));
+  logEntry[logEntryNo].moisture[1] = byte (readMoisture(1));
+  logEntry[logEntryNo].moisture[2] = byte (readMoisture(2));
 
   logEntryNo++;
 }
