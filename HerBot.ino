@@ -46,7 +46,7 @@ const int warningLogFullLED = 13;
 const int tempSensor = 8;
 const int lightSensor = 9;
 const int humiditySensor = 10;
-const int moistureProbe[] = {A5, A6, A7};
+const int moistureProbe[] = {A0, A1, A2};
 
 bool timeSynced = false;
 
@@ -91,7 +91,7 @@ byte readLight()          // Read the light probe
 
 byte readMoisture(int pin)          // Read a moisture probe
 {
-  return (byte (analogRead(pin)/4));
+  return (byte (analogRead(pin) >> 2));
 }
 
 
@@ -205,9 +205,9 @@ void logData()
   logEntry[logEntryNo].logTime = now();
   logEntry[logEntryNo].temperature = byte (dht.readTemperature());
   logEntry[logEntryNo].humidity = byte (dht.readHumidity());
-//  logEntry[logEntryNo].moisture[0] = byte (readMoisture(0));
-  logEntry[logEntryNo].moisture[1] = byte (readMoisture(1));
-  logEntry[logEntryNo].moisture[2] = byte (readMoisture(2));
+  logEntry[logEntryNo].moisture[0] = byte (readMoisture(0));
+//  logEntry[logEntryNo].moisture[1] = byte (readMoisture(1));
+//  logEntry[logEntryNo].moisture[2] = byte (readMoisture(2));
 
   logEntryNo++;
 }
