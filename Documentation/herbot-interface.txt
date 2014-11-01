@@ -5,7 +5,7 @@ This file describes the HerBot interface protocol
 
 ! Info or warning message
 ? Message asking for intervention
-E Log entries follow. In response to L input. See 2.1 and 3.x
+E Log entries follow. In response to L input. See 2.1 and 3.2
 
 2.1 [E]ntries response
 In response to a log request, the HerBot will reply
@@ -13,3 +13,10 @@ In response to a log request, the HerBot will reply
 
 3. Input headers
 
+3.1
+T time sync header. Followed by 10 digits. Seconds since the epoch (1 January 1970)
+
+3.2
+L request log entries stored in the HerBot. Response should be E followed by the number of entries. The next line in the response should be a T response (see 2.2) in order to be able to do time correction. Finally x number of comma-separated lines with the values of the log.
+
+3.3 [C]onfig header
